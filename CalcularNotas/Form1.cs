@@ -87,6 +87,7 @@ namespace CalcularNotas
                                             Convert.ToDecimal(txtNota3.Text) + Convert.ToDecimal(txtNota4.Text) +
                                             Convert.ToDecimal(txtNota5.Text) + Convert.ToDecimal(txtNota6.Text)) / 6);
 
+            //Ao clicar o botao calcular soma e média, limpa todos os textboxes
             txtNota1.Text = "";
             txtNota2.Text = "";
             txtNota3.Text = "";
@@ -95,10 +96,43 @@ namespace CalcularNotas
             txtNota6.Text = "";
             txtNota1.Focus();
         }
-
+        //Mudando a cor do label ao passar o mouse
         private void label2_MouseHover(object sender, EventArgs e)
         {
-            
+            label2.ForeColor = Color.Aquamarine;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            txtSoma.Text = Convert.ToString(Convert.ToDecimal(txtNota1.Text) - Convert.ToDecimal(txtNota2.Text) -
+                                            Convert.ToDecimal(txtNota3.Text) - Convert.ToDecimal(txtNota4.Text) -
+                                            Convert.ToDecimal(txtNota5.Text) - Convert.ToDecimal(txtNota6.Text));
+
+            txtMedia.Text = Convert.ToString((Convert.ToDecimal(txtNota1.Text) - Convert.ToDecimal(txtNota2.Text) -
+                                            Convert.ToDecimal(txtNota3.Text) - Convert.ToDecimal(txtNota4.Text) -
+                                            Convert.ToDecimal(txtNota5.Text) - Convert.ToDecimal(txtNota6.Text)) / 6);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtSoma.Text = Convert.ToString(Convert.ToDecimal(txtNota1.Text) * Convert.ToDecimal(txtNota2.Text) *
+                                            Convert.ToDecimal(txtNota3.Text) * Convert.ToDecimal(txtNota4.Text) *
+                                            Convert.ToDecimal(txtNota5.Text) * Convert.ToDecimal(txtNota6.Text));
+
+            txtMedia.Text = Convert.ToString((Convert.ToDecimal(txtNota1.Text) * Convert.ToDecimal(txtNota2.Text) *
+                                            Convert.ToDecimal(txtNota3.Text) * Convert.ToDecimal(txtNota4.Text) *
+                                            Convert.ToDecimal(txtNota5.Text) * Convert.ToDecimal(txtNota6.Text)) / 6);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            txtSoma.Text = Convert.ToString(Convert.ToDecimal(txtNota1.Text) / Convert.ToDecimal(txtNota2.Text) /
+                                            Convert.ToDecimal(txtNota3.Text) / Convert.ToDecimal(txtNota4.Text) /
+                                            Convert.ToDecimal(txtNota5.Text) / Convert.ToDecimal(txtNota6.Text));
+
+            txtMedia.Text = Convert.ToString((Convert.ToDecimal(txtNota1.Text) / Convert.ToDecimal(txtNota2.Text) /
+                                            Convert.ToDecimal(txtNota3.Text) / Convert.ToDecimal(txtNota4.Text) /
+                                            Convert.ToDecimal(txtNota5.Text) / Convert.ToDecimal(txtNota6.Text)) / 6);
         }
     }
 }
