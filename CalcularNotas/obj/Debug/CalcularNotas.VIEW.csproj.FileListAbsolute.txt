@@ -7,3 +7,12 @@ D:\CSharp\AulasCSharp\CalcularNotas\CalcularNotas\obj\Debug\CalcularNotas.Proper
 D:\CSharp\AulasCSharp\CalcularNotas\CalcularNotas\obj\Debug\CalcularNotas.VIEW.csproj.GenerateResource.Cache
 D:\CSharp\AulasCSharp\CalcularNotas\CalcularNotas\obj\Debug\CalcularNotas.exe
 D:\CSharp\AulasCSharp\CalcularNotas\CalcularNotas\obj\Debug\CalcularNotas.pdb
+D:\CalcularNotas\aulasCSharp\CalcularNotas\bin\Debug\CalcularNotas.exe.config
+D:\CalcularNotas\aulasCSharp\CalcularNotas\obj\Debug\CalcularNotas.exe
+D:\CalcularNotas\aulasCSharp\CalcularNotas\obj\Debug\CalcularNotas.pdb
+D:\CalcularNotas\aulasCSharp\CalcularNotas\bin\Debug\CalcularNotas.exe
+D:\CalcularNotas\aulasCSharp\CalcularNotas\bin\Debug\CalcularNotas.pdb
+D:\CalcularNotas\aulasCSharp\CalcularNotas\obj\Debug\CalcularNotas.VIEW.csprojResolveAssemblyReference.cache
+D:\CalcularNotas\aulasCSharp\CalcularNotas\obj\Debug\CalcularNotas.Form1.resources
+D:\CalcularNotas\aulasCSharp\CalcularNotas\obj\Debug\CalcularNotas.Properties.Resources.resources
+D:\CalcularNotas\aulasCSharp\CalcularNotas\obj\Debug\CalcularNotas.VIEW.csproj.GenerateResource.Cache

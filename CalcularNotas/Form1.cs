@@ -44,7 +44,7 @@ namespace CalcularNotas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Testando o form da minha calculadora.");
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
