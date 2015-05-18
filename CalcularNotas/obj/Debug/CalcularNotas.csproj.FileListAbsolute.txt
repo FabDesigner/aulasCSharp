@@ -1,0 +1,1 @@
+D:\CSharp\AulasCSharp\CalcularNotas\CalcularNotas\bin\Debug\CalcularNotas.exe.config
